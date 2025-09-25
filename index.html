@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | George</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="divHeader">
+    <div id="divNav">
+        <a href="#secHome">Home</a>
+        <a href="#secAbout">About</a>
+        <a href="#secEdu">Education</a>
+        <a href="#secSkills">Skills</a>
+        <a href="#secProjects">Projects</a>
+        <a href="#secContact">Contact</a>
+    </div>
+</div>
+
+<div id="secHome">
+    <h1 id="homeName">MARUMUDI GEORGE MULLAR</h1>
+    <p id="homeRole">Aspiring Web Developer</p>
+    <img id="aboutImg" src="image.png" alt="Image">
+</div>
+
+<div id="secAbout">
+    <h2 id="aboutTitle">About Me</h2>
+    <div id="divAboutCont">
+        <p id="aboutText">I'm a B. Tech student in Ramachandra College of Engineering, Eluru specialized in AI&DS. <br> Aspiring Web Developer Learning Javascript, React & Python Exploring Frontend & Backend Development.</p>
+    </div>
+</div>
+
+<div id="secEdu">
+    <h2 id="aboutTitle">Education</h2>
+    <h1 id="eduBtech">Bachelor of Technology - Artificial Intellegence and Data Science</h1>
+    <h2 id="eduClg">Ramachandra College of Engineering, Eluru</h2>
+    <h2 id="eduClg">Expected Graduation: 2027</h2>
+</div>
+
+<div id="secSkills">
+    <h2 id="skillTitle">Skills</h2>
+    <div id="skillHtml">
+    <h3 id="skillHtmlTitle">HTML</h3>
+    <div id="progressHtml"><div id="barHtml" data-width="90%"></div></div>
+    <span class="bar-percent">0%</span>
+    </div>
+
+    <div id="skillCss">
+    <h3 id="skillCssTitle">CSS</h3>
+    <div id="progressCss"><div id="barCss" data-width="85%"></div></div>
+    <span class="bar-percent">0%</span>
+    </div>
+
+    <div id="skillJs">
+    <h3 id="skillJsTitle">JavaScript</h3>
+    <div id="progressJs"><div id="barJs" data-width="65%"></div></div>
+    <span class="bar-percent">0%</span>
+    </div>
+
+    <div id="skillPy">
+    <h3 id="skillPyTitle">Python</h3>
+    <div id="progressPy"><div id="barPy" data-width="75%"></div></div>
+    <span class="bar-percent">0%</span>
+</div>
+</div>
+
+<div id="secProjects">
+    <h2 id="projectsTitle">Projects</h2>
+    <div id="divProjectsCont">
+        <div id="project1" onclick="showProject('Project 1')">
+            <h3 id="proj1Title">Power BI Dashboard</h3>
+            <p id="proj1Desc">I was created interactive Flipkart Dashboard along with my friend.</p>
+        </div>
+        <div id="project2" onclick="showProject('Project 2')">
+            <h3 id="proj2Title">Weather Website</h3>
+            <p id="proj2Desc">I created a weather website to know current weather by using HTML, CSS and JS</p>
+        </div>
+    </div>
+</div>
+
+<div id="secContact">
+    <h2 id="contactTitle">Contact Me</h2>
+    <form id="formContact">
+        <input type="text" id="inputName" placeholder="Your Name" required>
+        <input type="email" id="inputEmail" placeholder="Your Email" required>
+        <textarea id="inputMessage" placeholder="Your Message" rows="5" required></textarea>
+        <button id="btnSubmit" type="submit">Send Message</button>
+    </form>
+</div>
+
+<div id="divFooter">
+    &copy; 2025 George Mullar. All rights reserved.
+</div>
+
+<script src="js.js"></script>
+</body>
+</html>
